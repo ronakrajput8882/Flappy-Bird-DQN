@@ -90,7 +90,7 @@ DQN(
 | Epsilon Decay | 0.9995 |
 | Replay Buffer Size | 100,000 |
 | Mini-batch Size | 32 |
-| Network Sync Rate | 1000 steps |
+| Network Sync Rate | 10 steps |
 | Reward Threshold | 1000 |
 
 ---
@@ -108,12 +108,11 @@ DQN(
 ## 🗂️ Repository Structure
 
 ```
-flappy-bird-dqn/
+Flappy-Bird-DQN/
 ├── agent.py                # Main DQN agent — training & inference loop
 ├── dqn.py                  # Neural network architecture
 ├── expirence_replay.py     # Replay memory buffer
 ├── game_flappy_bird.py     # Manual play script (human mode)
-├── cuda.py                 # Device/CUDA diagnostics
 ├── parameters.yaml         # Hyperparameter config
 ├── runs/
 │   ├── flappybirdv0.pt     # Best saved model checkpoint
@@ -138,8 +137,6 @@ python agent.py flappybirdv0
 # Play manually
 python game_flappy_bird.py
 
-# Check CUDA availability
-python cuda.py
 ```
 
 ---
