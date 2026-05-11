@@ -1,10 +1,13 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=200&section=header&text=🐦%20Flappy%20Bird%20DQN&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Teaching%20an%20Agent%20to%20Fly%20with%20Deep%20Q-Learning&descAlignY=60&descAlign=50" width="100%"/>
 
+<div align="center">
+
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
 [![Gymnasium](https://img.shields.io/badge/Gymnasium-0.29-black?style=for-the-badge&logo=openai&logoColor=white)](https://gymnasium.farama.org)
 [![CUDA](https://img.shields.io/badge/CUDA-Enabled-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-zone)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
+</div>
 
 ---
 
