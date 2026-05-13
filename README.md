@@ -166,6 +166,8 @@ python game_flappy_bird.py
 ---
 
 <div align="center">
+  
+*If you found this useful, please ⭐ the repo!*
 
 ### Connect with me
 
