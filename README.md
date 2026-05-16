@@ -36,9 +36,7 @@ Key features:
 
 ## 🔄 Pipeline Workflow
 
-```
-Env Reset → State Observation → ε-Greedy Action Selection → Step Env → Store in Replay Buffer → Mini-batch Sample → Bellman Update → Target Net Sync
-```
+
 
 1️⃣ **Environment Setup** — Gymnasium `FlappyBird-v0` with 12 state features  
 2️⃣ **Policy DQN** — 2-layer MLP (12 → 256 → 2) with ReLU activation  
